@@ -1,0 +1,11 @@
+---
+- name: make pimp my log directory
+  file: path="{{ pimpmylog_install_dir }}"
+        state=directory
+
+- name: clone pimp my log
+  git: dest="{{ pimpmylog_install_dir }}"
+       repo="{{ pimpmylog_repo }}"
+       version="{{ pimpmylog_version }}"
+       accept_hostkey=yes
+       force=yes

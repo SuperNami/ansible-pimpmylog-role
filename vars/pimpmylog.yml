@@ -1,0 +1,6 @@
+---
+#pimpmylog_install_dir: /etc/nginx/html/pimpmylog
+pimpmylog_install_dir: /var/www/website.com/public/pimpmylog
+pimpmylog_repo: https://github.com/potsky/PimpMyLog.git
+pimpmylog_version: master
+pimpmylog_grant_all_privs: no

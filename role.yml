@@ -1,0 +1,9 @@
+---
+- name: pimpmylog
+  hosts: all
+  user: root
+  become: true
+  roles:
+  - pimpmylog
+  vars_files:
+  - vars/pimpmylog.yml

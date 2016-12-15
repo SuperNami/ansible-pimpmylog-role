@@ -1,0 +1,5 @@
+---
+- name: grant all privileges on the pimp my log directory
+  file: path="{{ pimpmylog_install_dir }}"
+        state=directory
+        mode=0777

@@ -1,0 +1,6 @@
+---
+- include: clone.yml
+  tags: pimpmylog_clone
+
+- include: privileges.yml
+  tags: pimpmylog_grant_all_privs
